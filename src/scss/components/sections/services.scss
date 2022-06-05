@@ -1,0 +1,290 @@
+@import "../../base/variables.scss";
+
+
+.services_main_container {
+    background: $clr-light;
+    padding:  3rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    .services_padding_container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .section_sml_title {
+        color: $clr-text2;
+        letter-spacing: 10px;
+    }
+
+    .section_title {
+        font-size: $font-2xl;
+        font-weight: 900;
+        color: $clr-primary;
+        margin: 20px 0 40px 0;
+    }
+
+    .services_description {
+        width: 65%;
+        text-align: left;
+        margin: 40px auto;
+        text-align: center;
+        line-height: 1.6;
+        color: $clr-text1;
+    }
+
+    .about_text_content {
+        width: 60%;
+        margin: 20px auto;
+        text-align: center;
+        line-height: 1.4;
+        color: $clr-text1;
+
+        .big-letter {
+            font-size: 2rem;
+            color: $clr-primary;
+        }
+    }
+
+    .services_selection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+        flex-wrap: wrap;
+        font-weight: bolder;
+    }
+
+    
+}
+
+
+
+.service_card {
+    background: $clr-primary;
+    color: $clr-light;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 0 20px $clr-primary;
+    border-radius: 3px;
+    width:75vw;
+    margin: 40px auto;
+    position: relative;
+
+
+    .card_img_container,
+    .card_text_container {
+        width: 50%;
+    }
+
+    .card_text_container {
+        padding: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+
+        .service_title {
+            font-size: $clr-secondary;
+            font-size: $font-2xl;
+        }
+
+        .service_detail {
+            margin: 20px 0 40px 0;
+            line-height: 1.6;
+        }
+    }
+
+    .card_img_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .card_img {
+            border-top-left-radius: 50px;
+            border-bottom-left-radius: 50px;
+            object-fit: cover;
+            width: 100%;
+        }
+    }
+
+    .card_number {
+        position: absolute;
+        top: -4rem;
+        left: 3rem;
+        color: $clr-secondary;
+        font-size: 20rem;
+        opacity: .2;
+        pointer-events: none;
+    }
+
+}
+
+
+.option-clicked {
+    transition: all .3s ease;
+    background: $clr-primary!important;
+    color: $clr-light!important;
+    border: solid 2px $clr-primary;
+    border-color: $clr-primary;
+    animation: pulse 1s infinite;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 5px $clr-primary;
+    }
+
+    50% {
+        box-shadow: 0 0 15px $clr-primary;
+    }
+
+    100%{ 
+        box-shadow: 0 0 5px $clr-primary;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 914px) {
+
+
+    .services_main_container {
+        background: $clr-light;
+        padding:  3rem 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    
+        .services_padding_container {
+            width: 80%;
+            margin: 0 auto;
+        }
+    
+        .section_sml_title {
+            color: $clr-text2;
+            letter-spacing: 10px;
+        }
+    
+        .section_title {
+            font-size: $font-2xl;
+            font-weight: 900;
+            color: $clr-primary;
+            margin: 20px 0 40px 0;
+        }
+    
+        .services_description {
+            width: 100%;
+            text-align: left;
+            margin: 40px auto;
+            text-align: center;
+            line-height: 1.6;
+            color: $clr-text1;
+        }
+    
+        .about_text_content {
+            width: 60%;
+            margin: 20px auto;
+            text-align: center;
+            line-height: 1.4;
+            color: $clr-text1;
+    
+            .big-letter {
+                font-size: 2rem;
+                color: $clr-primary;
+            }
+        }
+    
+        .services_selection {
+            // flex-direction: column;
+            gap: 2rem;
+        }
+    
+        
+    }
+    
+    
+    
+    .service_card {
+        background: $clr-primary;
+        color: $clr-light;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        box-shadow: 0 0 20px $clr-primary;
+        border-radius: 3px;
+        width:85vw;
+        margin: 40px 0;
+        position: relative;
+        right: 10px;
+        overflow: hidden;
+    
+    
+        .card_img_container,
+        .card_text_container {
+            width: 100%;
+        }
+    
+        .card_text_container {
+            padding: 0rem;
+            display: flex;
+            justify-content: center;
+            align-items: left;
+            text-align: left;
+    
+            .service_title {
+                font-size: $clr-secondary;
+                font-size: $font-2xl;
+            }
+    
+            .service_detail {
+                margin: 20px 0 40px 0;
+                line-height: 1.6;
+            }
+        }
+    
+        .card_img_container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            .card_img {
+                border-top-left-radius: 50px;
+                border-bottom-left-radius: 0px;
+                object-fit: cover;
+                width: 100%;
+            }
+        }
+    
+        .card_number {
+            position: absolute;
+            top: -4rem;
+            left: 2rem;
+            color: $clr-secondary;
+            font-size: 20rem;
+            opacity: .2;
+            pointer-events: none;
+        }
+    
+    }
+    
+
+
+}

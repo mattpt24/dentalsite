@@ -1,0 +1,64 @@
+@import "../base/variables.scss";
+
+.btn {
+    transition: all .3s ease;
+    padding: .7rem 1.5rem;
+    border-radius: 8px;
+    outline: none;
+    font-size: $font-sm;
+    cursor: pointer;
+    box-shadow: 0 1.5px 5px $clr-primary;
+
+    &.btn-dark {
+        border: solid 2px $clr-primary;
+        background: $clr-primary;
+        color: $clr-light;
+
+        &:hover {
+            transition: all .3s ease;
+            background: none;
+            color: $clr-primary;
+        }
+    }
+
+    &.btn-light {
+        border: solid 2px $clr-primary;
+        background: none;
+        color: $clr-primary;
+
+        &:hover {
+            transition: all .3s ease;
+            background: $clr-primary;
+            color: $clr-light;
+        }
+
+    }
+
+
+    &.btn-accent {
+        border: solid 2px $clr-secondary;
+        background: $clr-secondary;
+        color: $clr-primary;
+        font-weight: 500;
+
+        &:hover {
+            transition: all .3s ease;
+            border: solid 2px $clr-primary;
+            background: $clr-primary;
+            color: $clr-light;
+        }
+    }
+
+    &.btn-white {
+        border: solid 2px $clr-light;
+        background: $clr-light;
+        color: $clr-primary;
+
+        &:hover {
+            transition: all .3s ease;
+            background: none;
+            color: $clr-light;
+        }
+
+    }
+}

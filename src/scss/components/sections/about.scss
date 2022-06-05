@@ -1,0 +1,74 @@
+@import "../../base/variables.scss";
+
+.about_main_container {
+    background: white;
+    padding: 6rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    .about_padding_container {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .section_sml_title {
+        color: $clr-text2;
+        letter-spacing: 10px;
+    }
+
+    .section_title {
+        font-size: $font-2xl;
+        font-weight: 900;
+        color: $clr-primary;
+        margin: 20px 0 40px 0;
+    }
+
+    .about_text_content {
+        width: 60%;
+        margin: 20px auto;
+        text-align: center;
+        line-height: 1.6;
+        color: $clr-text1;
+
+        .big-letter {
+            font-size: 2rem;
+            color: $clr-primary;
+        }
+    }
+    
+}
+
+
+
+@media screen and (max-width: 1103px) {
+    
+.about_main_container {
+    background: white;
+    padding: 6rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    .about_padding_container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+
+    .section_title {
+        margin: 20px 0 40px 0;
+    }
+
+    .about_text_content {
+        width: 90%;
+    }
+    
+}
+
+
+}

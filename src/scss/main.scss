@@ -1,0 +1,18 @@
+// THEME
+@import "./theme/resets.scss";
+
+// BASE
+@import "./base/mixins.scss";
+@import "./base/variables.scss";
+
+// COMPONENTS
+@import "./components/sections/hero.scss";
+@import "./components/sections/about.scss";
+@import "./components/sections/services.scss";
+@import "./components/sections/footer.scss";
+@import "./components/button.scss";
+@import "./components/cta.scss";
+@import  "./components/navbar.scss";
+
+
+
