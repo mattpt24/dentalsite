@@ -21,7 +21,7 @@ return (
         </div>
 
         <div className="location_left">
-        <div style={{maxWidth:"100%",overflow:"hidden",color:"red",width:"50vw",height:"60vh"}}><div id="embedmap-canvas" style={{height:"100%", width:"100%",maxWidth:"100"}}>
+        <div className="map_container"><div id="embedmap-canvas" style={{height:"100%", width:"100%",maxWidth:"100"}}>
         <iframe style={{height:"100%",width:"100%",border:"0"}} frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=UB10+8DQ&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"/>
         </div><a class="googlemap-code-enabler" rel="nofollow" href="https://dedicatedserver.expert" id="grabmaps-authorization">Dedicated Server Expert</a></div>
         </div>
@@ -33,3 +33,5 @@ return (
 
 
 export default Location;
+
+// style={{maxWidth:"100%",overflow:"hidden",color:"red",width:"50vw",height:"60vh"}}
