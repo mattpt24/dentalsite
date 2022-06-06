@@ -1,0 +1,41 @@
+@import "../../base/variables.scss";
+
+.location_main_container {
+    background: $clr-primary;
+
+    .location_padding_container {
+        display: flex;
+
+        .location_left,
+        .location_right {
+            width: 50vw;
+        }
+
+        .location_left {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url("../../../images/location-bg.png");
+            background-position: center center;
+
+            h1 {
+                color: white;
+                font-size: $font-2xl;
+            }
+
+            address {
+                color: white;
+                font-size: 1.8rem;;
+                margin: 40px 0 60px 0;
+
+                span {
+                    color:$clr-secondary;
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+}
+
+
+#embedmap-canvas img.text-marker{max-width:none!important;background:none!important;}img{max-width:none}

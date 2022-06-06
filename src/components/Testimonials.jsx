@@ -57,6 +57,10 @@ function Testimonials() {
                 />
 
             </div>
+
+            <center>
+            <a className="read-more btn btn-white" target="_blank" href="https://www.google.com/search?q=google+reviews+denpure&rlz=1C1CHBF_en-GBGB973GB973&oq=google+reviews+denpure&aqs=chrome..69i57j69i64.4006j0j7&sourceid=chrome&ie=UTF-8#lrd=0x48766c481668bccd:0x3b1762b7f7b150bd,1,,,">Read More</a>
+            </center>
             </div>
 
             

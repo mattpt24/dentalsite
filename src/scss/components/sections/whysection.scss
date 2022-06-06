@@ -1,0 +1,200 @@
+@import "../../base/variables.scss";
+
+
+.why_main_container {
+    background: #ffffff;
+    padding: 6rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    .why_padding_container {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .section_sml_title {
+        color: $clr-text1;
+        letter-spacing: 10px;
+    }
+
+    .section_title {
+        font-size: $font-2xl;
+        font-weight: 900;
+        color: $clr-primary;
+        margin: 20px 0 40px 0;
+    }
+
+    .section_description {
+        width: 40%;
+        margin: 20px auto;
+        color: $clr-text1;
+    }
+
+    .about_text_content {
+        width: 60%;
+        margin: 20px auto;
+        text-align: center;
+        line-height: 1.6;
+        color: $clr-text1;
+
+    }
+
+
+    .why_reasons_container {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 4rem 0;
+
+        .why_reason {
+            transition: all .3s ease;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+            height: 250px;
+            border-radius: 10px;
+            padding: 10px;
+        }
+
+        h3 {
+            color: $clr-primary;
+            font-weight: bolder;
+            font-size: $font-lg;
+            margin-top: 10px;
+        }
+
+        h4 {
+            color: $clr-text2;
+            font-size: $font-sm;
+            margin: 10px 0;
+            font-weight: 400;
+            width: 20ch;
+        }
+
+        .icon_container {
+            transition: all .3s ease;
+            padding: 2rem;
+            height: 80px;
+            width: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 100%;
+        }
+        .why_icon {
+            transition: all .3s ease;
+            font-size: 2.2rem;
+            border-radius: 100%;
+        }
+
+    }
+
+    .why_reason:hover {
+        transition: all .3s ease;
+        background: $clr_secondary;
+        cursor: pointer;
+    }
+
+    .why_reason:hover > h4 {
+        transition: all .3s ease;
+        color: #222;
+    }
+
+    .why_reason:hover > .icon_container {
+        transition: all .3s ease;
+        background: $clr-light;
+    }
+
+
+    .one {
+        color: crimson;
+    }
+
+    .one_con {
+        background: rgb(246, 197, 207);
+    }
+
+    .two {
+        color: #00d890;
+    }
+
+    .two_con {
+        background: #cff8eb;
+    }
+
+    .three {
+        color: rgb(29, 67, 255);
+    }
+
+    .three_con {
+        background: rgb(197, 207, 255);
+    }
+
+
+    .four {
+        color: rgb(230, 188, 4);
+    }
+
+    .four_con {
+        background: rgb(255, 246, 207);
+    }
+    
+}
+
+
+
+
+@media screen and (max-width: 1103px) {
+
+
+    @import "../../base/variables.scss";
+
+
+    .why_main_container {
+        background: #ffffff;
+        padding: 5rem 0;
+    
+        .why_padding_container {
+            width: 70%;
+            margin: 0 auto;
+        }
+    
+        .section_sml_title {
+            color: $clr-text1;
+            letter-spacing: 10px;
+            white-space: nowrap;
+        }
+    
+        .section_title {
+            font-size: $font-2xl;
+            font-weight: 900;
+            color: $clr-primary;
+            margin: 40px 0 40px 0;
+        }
+    
+        .section_description {
+            width: 100%;
+            margin: 20px auto;
+            color: $clr-text1;
+        }
+    
+        .about_text_content {
+            width: 60%;
+            margin: 20px auto;
+            text-align: center;
+            line-height: 1.6;
+            color: $clr-text1;
+    
+        }
+    
+        
+    }
+
+
+}   

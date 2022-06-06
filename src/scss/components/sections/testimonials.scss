@@ -87,7 +87,7 @@
     }
 
     .card_quote {
-        font-size: $font-lg;
+        font-size: $font-md;
         color: $clr-text2;
         width: 70%;
         margin: 20px  auto;
@@ -173,6 +173,11 @@
 
 @media screen and (max-width: 800px) {
 
+    .testimonial_card_section {
+        margin: 7rem 0 5rem 0;
+    }
+
+
     .section_sml_title {
         font-size: $font-sm;
         color: $clr-light;
@@ -181,5 +186,9 @@
 
     .card_container {
         width: 85vw;
+    }
+
+    .read-more {
+        margin: 80px 0;
     }
 }
