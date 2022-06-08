@@ -10,7 +10,7 @@ return (
 
         <div className="location_left">
             <div className="location_left_content">
-                <h1>Where Are We?</h1>
+                <h1>Find us.</h1>
                 <div class="location_flex_content">
                 <div className="location_icon">
                 <i class="map_icon fa-solid fa-location-dot"></i>
@@ -25,7 +25,9 @@ return (
 
                 <a href="https://www.google.com/maps/place/Denpure+-+Dental+Care+and+Implant+Centre/@51.5655459,-0.4497564,17z/data=!3m1!4b1!4m5!3m4!1s0x48766c481668bccd:0x3b1762b7f7b150bd!8m2!3d51.5655535!4d-0.4475601" target="_blank" className="btn btn-dark">Get Directions</a>
 
-
+<br />
+<br />
+<br />
                 <div class="opening_hours_con location_flex_content">
                     <div className="location_icon">
                 <i class="map_icon fa-solid fa-clock"></i>

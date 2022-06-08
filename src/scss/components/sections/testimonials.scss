@@ -36,6 +36,7 @@
 
 
 .card_container {
+    transition: all .3s ease;
     background: $clr-light;
     position: relative;
     text-align: center;
@@ -44,6 +45,12 @@
     width: 18vw;
     min-height:  50vh;
     box-shadow: 0 0 10px $clr-light;
+
+    &:hover {
+        transition: all .3s ease;
+        transform: translateY(-10px);
+        box-shadow: 0 0 20px $clr-light;
+    }
 
     .star-icon {
         color: goldenrod;
@@ -71,6 +78,7 @@
         box-shadow: 2px 2px 10px $clr-primary;
     }
 
+
     .card_person {
         padding: 20px 0 40px 0;
     }
@@ -94,7 +102,10 @@
         margin: 20px  auto;
     }
 
+
 }
+
+    
 
 
 

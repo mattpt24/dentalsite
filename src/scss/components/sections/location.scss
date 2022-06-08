@@ -15,7 +15,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background: url("../../../images/location-bg.png");
+            background: #e7e4ff;
             background: {
                 size: cover;
                 position: center center;
@@ -32,7 +32,7 @@
             address {
                 color: #222;
                 font-size: 1.3rem;;
-                margin: 20px 0 40px 0;
+                margin: 40px 0 40px 0;
                 font-style: normal;
 
                 .opening_hours {

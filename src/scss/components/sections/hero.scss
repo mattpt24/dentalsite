@@ -31,7 +31,7 @@
                 color: rgb(213, 213, 213);
                 font-size: $font-md;
                 font-weight: $fw-medium;
-                margin: 15px 0 35px 0;
+                margin: 20px 0 45px 0;
                 opacity: 0;
                 animation: textEnter 1s;
                 animation-delay: 1s;
@@ -39,8 +39,7 @@
             }
 
             .emphasised-txt {
-                color: $clr-secondary;
-                text-shadow: 0 0 5px $clr-secondary;
+                text-shadow: 0 0 10px $clr-light;
             }
 
             .btn {
