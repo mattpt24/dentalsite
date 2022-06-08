@@ -1,0 +1,68 @@
+@import "../base/variables.scss";
+
+.cta_main_container {
+    background: url("../../images/cta-bg.png");
+    background: {
+        size: cover;
+        position: center center;
+    }
+    text-align: center;
+    padding: 4rem 0;
+
+    h3 {
+        width: 50%;
+        margin: 20px auto;
+        font-size: $font-lg;
+        color: $clr-light;
+        font-size: $font-2xl;
+    }
+
+     p {
+        padding-bottom: 1rem;
+        color: $clr-secondary;
+        font-size: $font-md;
+     }
+
+    .cta_btns {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+
+    .btn {
+        margin-top: 20px;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    .cta_main_container {
+        background: url("../../images/cta-bg.png");
+        background: {
+            size: cover;
+            position: right center;
+        }
+        text-align: center;
+        padding: 4rem 0;
+    
+        h3 {
+            width: 80%;
+            margin: 20px auto;
+            font-size: $font-xl;
+        }
+    
+         p {
+            font-size: $font-md;
+            width: 80%;
+            margin: 0 auto;
+         }
+    
+        .cta_btns {
+            gap: 1rem;
+            flex-direction: column-reverse;
+        }
+    
+    }
+}

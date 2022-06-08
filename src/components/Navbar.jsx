@@ -29,7 +29,6 @@ export default function Navbar(){
             <ul className="nav_list">
                 <li><a rel="noreferrer" target="_blank" href="https://denpure.co.uk/" className="nav_link">About</a></li>
                 <li><a rel="noreferrer" target="_blank" href="https://denpure.co.uk/" className="nav_link">Services</a></li>
-                <li><a rel="noreferrer" target="_blank" href="https://denpure.co.uk/" className="nav_link">Results</a></li>
                 <li><a rel="noreferrer" target="_blank" href="https://denpure.co.uk/" className="nav_link">Location</a></li>
                 <li><a rel="noreferrer" target="_blank" href="https://denpure.co.uk/" className="nav_link support">Get In Touch</a></li>
             </ul>

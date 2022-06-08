@@ -16,22 +16,49 @@
             justify-content: center;
             align-items: center;
             background: url("../../../images/location-bg.png");
-            background-position: center center;
+            background: {
+                size: cover;
+                position: center center;
+            }
+
+        
 
             h1 {
-                color: white;
+                color: $clr-primary;
                 font-size: $font-2xl;
+                margin-bottom: 1.5rem;
             }
 
             address {
-                color: white;
-                font-size: 1.8rem;;
-                margin: 40px 0 60px 0;
+                color: #222;
+                font-size: 1.3rem;;
+                margin: 20px 0 40px 0;
+                font-style: normal;
+
+                .opening_hours {
+                    display: flex;
+                    justify-content: space-between;
+                }
+
+                .time {
+                    margin-left: 3rem;
+                    font-weight: bold;
+                    color:$clr-primary;
+                }
 
                 span {
-                    color:$clr-secondary;
+                    color:rgb(105, 105, 105);
                     font-size: 1.5rem;
                 }
+
+                .closed {
+                    color: $clr-primary;
+                }
+            }
+
+            
+            .opening_hours_con {
+                margin-top: 2rem;
             }
         }
     }
@@ -41,9 +68,43 @@
         max-width:100%;
         overflow:hidden;
         width:50vw;
-        height:60vh;
+        height:75vh;
+    }
+
+    .location_flex_content {
+        display: flex;
+        align-items: center;
+
+        .location_icon {
+            background: #aca3ff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50px;
+            border-radius: 100%;
+            width: 50px;
+            margin-bottom: 20px;
+            margin-right: 15px;
+        }
+
+        .map_icon {
+            padding: .8rem 1rem;
+            font-size: 1.5rem;
+            border-radius: 100%;
+            color: $clr-primary; 
+        }
+
+        p {
+            font-size: 1.8rem;
+        }
+
+        .closed {
+            color: crimson;
+        }
     }
 }
+
+
 
 
 #embedmap-canvas img.text-marker{max-width:none!important;background:none!important;}img{max-width:none}
@@ -51,7 +112,6 @@
 
 @media screen and (max-width: 1000px) {
     .location_main_container {
-        background: $clr-primary;
     
         .location_padding_container {
             flex-direction: column;
@@ -59,31 +119,65 @@
             .location_left,
             .location_right {
                 width: 100vw;
-                min-height: 50vh;
+                min-height: 0vh;
             }
     
             .location_left {
-                padding: 2rem 0 0 0;
-                background: $clr_primary;
+                padding: 2rem 0 5rem 0;
+                background: $clr_secondary;
                 background-size: cover;
                 text-align: center;
     
                 h1 {
-                    color: white;
-                    font-size: $font-2xl;
+                    color: $clr-primary;
+                    margin: 40px 0;
                 }
     
                 address {
-                    color: white;
+                    color: #222;
                     font-size: 1.8rem;;
                     margin: 40px 0 60px 0;
     
                     span {
-                        color:$clr-secondary;
+                        color:#222;
                         font-size: 1.5rem;
                     }
                 }
             }
+
+            
+    .location_flex_content {
+        flex-direction: column;
+        margin-top: 2rem;
+
+        .location_icon {
+            background: #aca3ff;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            height: 100px;
+            border-radius: 100%;
+            width: 100px;
+            margin-top: 20px;
+            margin-right: 0px;
+        }
+
+        .map_icon {
+            padding: .8rem 1rem;
+            font-size: 4rem;
+            border-radius: 100%;
+            color: $clr-primary; 
+        }
+
+        p {
+            font-size: 1.8rem;
+        }
+
+        .closed {
+            color: crimson;
+        }
+    }
         }
 
         .map_container {
@@ -92,5 +186,8 @@
             width:100vw;
             height:50vh;
         }
+
+        
     }
+    
 }

@@ -7,6 +7,8 @@ import Divider from "./components/Divider";
 import Testimonials from "./components/Testimonials";
 import WhySection from "./components/WhySection";
 import Location from "./components/Location.jsx";
+import Cta from "./components/Cta";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -16,9 +18,11 @@ function App() {
       <About />
       <Divider />
       <Services />
-      <Testimonials/>
+      <Cta />
       <WhySection />
       <Location />
+      <Testimonials/>
+      <Contact />
     </div>
   );
 }

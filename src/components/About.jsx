@@ -5,7 +5,7 @@ function About () {
     return (
         <div class="about_main_container">
             <div class="about_padding_container">
-            <p className="section_sml_title">- WHO ARE WE? -</p>
+            <p className="section_sml_title">WHO ARE WE?</p>
             <h2 className="section_title about_title">Your dentist, Denpure.</h2>
 
             <div className="about-text">

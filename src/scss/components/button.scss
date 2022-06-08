@@ -61,4 +61,18 @@
         }
 
     }
+
+
+    &.btn-transparent {
+        border: solid 2px $clr-light;
+        background: none;
+        color: $clr-light;
+
+        &:hover {
+            transition: all .3s ease;
+            background: $clr-light;
+            color: $clr-primary;
+        }
+
+    }
 }

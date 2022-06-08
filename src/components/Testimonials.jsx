@@ -1,7 +1,7 @@
 import React from "react";
 import "../scss/components/sections/testimonials.scss";
 import TestCard from "./TestCard";
-import Reviews from "../Reviews";
+import {Reviews} from "../Reviews";
 
 function Testimonials() {
     return (
@@ -13,17 +13,17 @@ function Testimonials() {
             <div className="testimonial_card_section">
 
                 <TestCard 
-                quote={Reviews[2].quote}
-                name={Reviews[2].name}
-                age={Reviews[2].age}
-                src={Reviews[2].src}
+                quote={Reviews[0].quote}
+                name={Reviews[0].name}
+                age={Reviews[0].age}
+                src={Reviews[0].src}
                 />
 
                 <TestCard 
-                quote={Reviews[2].quote}
-                name={Reviews[2].name}
-                age={Reviews[2].age}
-                src={Reviews[2].src}
+                quote={Reviews[1].quote}
+                name={Reviews[1].name}
+                age={Reviews[1].age}
+                src={Reviews[1].src}
                 />
 
 
@@ -35,25 +35,25 @@ function Testimonials() {
                 />
 
                 <TestCard 
-                quote={Reviews[2].quote}
-                name={Reviews[2].name}
-                age={Reviews[2].age}
-                src={Reviews[2].src}
+                quote={Reviews[3].quote}
+                name={Reviews[3].name}
+                age={Reviews[3].age}
+                src={Reviews[3].src}
                 />
 
                 <TestCard 
-                quote={Reviews[2].quote}
-                name={Reviews[2].name}
-                age={Reviews[2].age}
-                src={Reviews[2].src}
+                quote={Reviews[4].quote}
+                name={Reviews[4].name}
+                age={Reviews[4].age}
+                src={Reviews[4].src}
                 />
 
 
                 <TestCard 
-                quote={Reviews[2].quote}
-                name={Reviews[2].name}
-                age={Reviews[2].age}
-                src={Reviews[2].src}
+                quote={Reviews[5].quote}
+                name={Reviews[5].name}
+                age={Reviews[5].age}
+                src={Reviews[5].src}
                 />
 
             </div>

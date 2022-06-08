@@ -1,0 +1,231 @@
+@import "../../base/variables.scss";
+
+
+.contact_main_container {
+    background: url("../../../images/white-bg.png");
+    background: {
+        size: cover;
+        position: center center;
+    }
+    padding: 6rem 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    .contact_padding_container {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .section_sml_title {
+        color: $clr-text2;
+        letter-spacing: 10px;
+    }
+
+    .section_title {
+        font-size: $font-2xl;
+        font-weight: 900;
+        color: $clr-primary;
+        margin: 20px 0 40px 0;
+    }
+
+    .section_description {
+        width: 60%;
+        margin: 0 auto;
+        line-height: 1.6;
+    }
+    
+}
+
+
+
+.form_main_container {
+    min-height: 40vh;
+
+ 
+    form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 40px auto;
+    }
+    
+    input {
+        padding: 1rem .3rem;
+        margin-bottom: 10px;
+        width: 350px;
+        color: $clr-primary;
+        border: solid 1px lightgrey;
+        outline: none;
+
+        &:focus {
+            background: #dcd8ff;
+        }
+    }
+
+    button {
+        transition: all .3s ease;
+        padding: 1rem 2rem;
+        width: 350px;
+        background: $clr-primary;
+        color: $clr-light;
+        border: solid 2px $clr-primary;
+        outline: none;
+        margin-top: 20px;
+
+        &:hover {
+            transition: all .3s ease;
+            cursor: pointer;
+            background: none;
+            color: $clr-primary;
+        }
+    }
+
+}
+
+.icons_container {
+    padding: 4rem 0 0 0;
+
+    .icons_row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        margin: 4rem 0;
+
+        .icon_box {
+            transition: all .3s ease;
+            height: 50px;
+            width: 50px;
+            background: $clr-secondary;
+            border-radius: 100%;
+            position: relative;
+            border: solid 2px $clr-secondary;
+
+            &:hover {
+                transition: all .3s ease;
+                background: none;
+                border-color: $clr-primary;
+            }
+
+            .icon {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 1.5rem;
+                color: $clr-primary;
+            }
+        }
+    }
+}  
+
+
+footer {
+    background: rgb(228, 228, 228);
+    width: 100%;
+    padding: 10px 0;
+
+     .footer_links {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         gap: 4rem;
+         margin: 25px 0;
+
+          a {
+            transition: all .3s ease;
+              color: #222;
+
+              &:hover {
+                  transition: all .3s ease;
+                  color: $clr-primary;
+              }
+          }
+     }
+
+     
+     span {
+        color: rgb(103, 103, 103);
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    .contact_main_container {
+        padding: 6rem 0 0 0;
+    
+        .contact_padding_container {
+            width: 90%;
+            margin: 0 auto;
+        }
+    
+    
+        .section_description {
+            width: 100%;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+        
+    }
+
+
+    .form_main_container {
+        min-height: 40vh;
+    
+     
+        form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 40px auto;
+        }
+        
+        input, button {
+            width: 80vw;
+        }
+    
+    }
+
+
+    
+    .icons_container {
+        padding: 4rem 0 0rem 0;
+        
+
+        .icons_row {
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+    }  
+
+
+    footer {
+    
+         .footer_links {
+             gap: 2rem;
+             flex-wrap: wrap;
+         }
+    
+    }
+    
+}
+
+
