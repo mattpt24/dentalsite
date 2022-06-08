@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/dentalsite/static/css/main.485edc1e.css",
-    "main.js": "/dentalsite/static/js/main.dcc2509c.js",
+    "main.css": "/dentalsite/static/css/main.03a68462.css",
+    "main.js": "/dentalsite/static/js/main.8f99f205.js",
     "static/media/white-bg.png": "/dentalsite/static/media/white-bg.44b94a8eb4bc8dd974c4.png",
     "static/media/hero-large.png": "/dentalsite/static/media/hero-large.64c91bbbe23efd7a6ff0.png",
     "static/media/tablet-bg.png": "/dentalsite/static/media/tablet-bg.73f8a66d356c7c41eb2b.png",
     "static/media/cta-bg.png": "/dentalsite/static/media/cta-bg.e37e4951e12f689947d1.png",
     "static/media/mobile-img.png": "/dentalsite/static/media/mobile-img.d0ebd1640db623e00ce1.png",
+    "static/media/testimonials-bg.png": "/dentalsite/static/media/testimonials-bg.09fe04cbb2d864015cb8.png",
     "static/media/quotemarks.png": "/dentalsite/static/media/quotemarks.a84a24e09b4971f6e0e6.png",
-    "static/media/testimonials-bg.png": "/dentalsite/static/media/testimonials-bg.3c7ce23df57c95dd9226.png",
     "index.html": "/dentalsite/index.html",
-    "main.485edc1e.css.map": "/dentalsite/static/css/main.485edc1e.css.map",
-    "main.dcc2509c.js.map": "/dentalsite/static/js/main.dcc2509c.js.map"
+    "main.03a68462.css.map": "/dentalsite/static/css/main.03a68462.css.map",
+    "main.8f99f205.js.map": "/dentalsite/static/js/main.8f99f205.js.map"
   },
   "entrypoints": [
-    "static/css/main.485edc1e.css",
-    "static/js/main.dcc2509c.js"
+    "static/css/main.03a68462.css",
+    "static/js/main.8f99f205.js"
   ]
 }
