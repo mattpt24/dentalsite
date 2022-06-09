@@ -76,6 +76,7 @@
         height: 145px;
         border-radius: 100%;
         box-shadow: 2px 2px 10px $clr-primary;
+        object-fit: cover;
     }
 
 
@@ -105,6 +106,29 @@
 
 }
 
+
+.extend-cards {
+    transition: all 1s ease;
+margin: 0rem 0;
+overflow: hidden;
+ height: 0;
+ opacity: 0;
+}
+
+.more-cards {
+    transition: all 1s ease;
+    height: auto;
+    overflow: visible;
+    margin-bottom: 4rem;
+    opacity: 1;
+}
+
+.btn_container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+}
     
 
 
@@ -147,22 +171,16 @@
         position: relative;
         text-align: center;
         border-radius: 20px;
-        padding-top: 8rem;
+        padding: 8rem 0 0 0;
         width: 40vw;
         box-shadow: 0 0 10px $clr-light;
     
         .star-icon {
-            color: $clr-primary;
             font-size: $font-md;
             margin-top: 20px;
         }
     
         .card_quotemarks {
-            // position: absolute;
-            // top: 0;
-            // left: 0;
-            // opacity: 0.1;
-            // width: 300px;
             display: none;
         }
     
@@ -185,8 +203,12 @@
 
 @media screen and (max-width: 800px) {
 
+    .testimonial_main_container {
+        padding-bottom: 2rem;
+    }
+
     .testimonial_card_section {
-        margin: 7rem 0 5rem 0;
+        margin: 7rem 0 0rem 0;
     }
 
 
@@ -203,4 +225,15 @@
     .read-more {
         margin: 80px 0;
     }
+
+    .btn_container {
+        display: block;
+        text-align: center;
+        padding: 60px 0 20px 0;
+
+        a:nth-child(1) {
+            margin-right: 20px;
+        }
+    }
+
 }
