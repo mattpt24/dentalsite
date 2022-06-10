@@ -52,6 +52,7 @@ const facialAestheticsClicked = () => {
 
 
     return (
+        <section id="services">
         <div className="services_main_container">
             <div className="services_padding_container">
             <p className="section_sml_title">WHAT DO WE DO?</p>
@@ -69,7 +70,7 @@ const facialAestheticsClicked = () => {
             <div className="service_card_container">{service}</div>
             </div>
         </div>
-
+        </section>
     )
 }
 

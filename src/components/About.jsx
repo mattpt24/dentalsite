@@ -3,6 +3,7 @@ import "../scss/components/sections/about.scss";
 
 function About () {
     return (
+        <section id="about">
         <div class="about_main_container">
             <div class="about_padding_container">
             <p className="section_sml_title">WHO ARE WE?</p>
@@ -14,6 +15,7 @@ function About () {
            </div>
            </div>
         </div>
+        </section>
     )
 }
 

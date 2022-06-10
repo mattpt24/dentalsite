@@ -7,10 +7,8 @@ import Footer from "./Footer";
 
 export default function Contact() {
     
-
-
-    
 return(
+    <section id="contact">
 <div className="contact_main_container">
     <div className="contact_padding_container">
         <div className="contact_intro_text">
@@ -79,5 +77,6 @@ return(
     </div>
     <Footer />
 </div>
+</section>
 )
 }

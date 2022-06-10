@@ -5,6 +5,7 @@ import "../scss/components/sections/location.scss";
 
 function Location() {
 return (
+    <section id="location">
 <div className="location_main_container">
     <div className="location_padding_container">
 
@@ -55,10 +56,10 @@ return (
 
     </div>
 </div>
+</section>
 )
 }
 
 
 export default Location;
 
-// style={{maxWidth:"100%",overflow:"hidden",color:"red",width:"50vw",height:"60vh"}}

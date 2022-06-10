@@ -10,7 +10,7 @@ export default function TestCard(props) {
             <img className="card_img" src={props.src} alt="Avatar of customer" />   
             <p className="card_quote">"{props.quote}"</p>
 
-            <p><i class="star-icon fa-solid fa-star"></i><i class="star-icon fa-solid fa-star"></i><i class="star-icon fa-solid fa-star"></i><i class="star-icon fa-solid fa-star"></i><i class="star-icon fa-solid fa-star"></i></p>
+            <p><i style={{fontSize: "1.5rem", color: "#6454ff"}}class="fa-brands fa-google"></i>&nbsp;&nbsp;<i class="star-icon fa-solid fa-star"></i><i class="star-icon fa-solid fa-star"></i><i class="star-icon fa-solid fa-star"></i><i class="star-icon fa-solid fa-star"></i><i class="star-icon fa-solid fa-star"></i></p>
 
             <div className="card_person">
             <p className="card_name">{props.name}</p>

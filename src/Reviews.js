@@ -1,6 +1,6 @@
 export const Reviews = [
     {
-        quote: "I've found the reception staff very helpful and they've always been able to book me within a reasonable time.",
+        quote: "This has got to be the friendliest dental practice in London. The actual treatment was very professional!",
         name: "Chris Jameson",
         age: "52",
         src: "http://res.cloudinary.com/ulaw/image/upload/c_fit,w_500/dryer_randy_2018_sx8btg.jpg"
@@ -15,9 +15,9 @@ export const Reviews = [
 
     {
         quote: "Couldn't recommend their services enough, so professional and friendly!",
-        name: "Keith Thompson",
+        name: "Glenn Hodgeson",
         age: "64",
-        src: "https://scontent-lhr8-1.xx.fbcdn.net/v/t1.6435-9/74912315_10212149281366832_6356507840953188352_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=174925&_nc_ohc=HsvQuqENXWMAX8NRCjl&_nc_ht=scontent-lhr8-1.xx&oh=00_AT9GtD6-wzh1myxGYj6RFFYnnXhnR1xuYnZfh1HlAwXT6Q&oe=62C765A5"
+        src: "https://randomuser.me/api/portraits/men/21.jpg"
     },
 
     {
@@ -28,7 +28,7 @@ export const Reviews = [
     },
 
     {
-        quote: "This has got to be the friendliest dental practice in London. The actual treatment was very professional!",
+        quote: "I've found the reception staff very helpful and they've always been able to book me within a reasonable time.",
         name: "Edward Baah",
         age: 35,
         src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiwCcJFOxnIkVVK0i9I8P7dck7sJXFiklDpg&usqp=CAU"
@@ -43,9 +43,9 @@ export const Reviews = [
 
     {
         quote: "I really enjoyed my visit, it was very professional and all of the staff were so nice!",
-        name: "Jane Armstrong",
+        name: "Vickie Rivera",
         age: 27,
-        src: "https://randomuser.me/api/portraits/women/92.jpg"
+        src: "https://randomuser.me/api/portraits/women/59.jpg"
     },
 
 
