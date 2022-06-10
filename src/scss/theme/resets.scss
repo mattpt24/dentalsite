@@ -13,6 +13,13 @@
     text-decoration: none;
   }
 
+  a:focus  {
+    background: #31ffbe!important;
+    color: white;
+    border: none;
+  }
+
+
 
 ul , ol {
   list-style: none;

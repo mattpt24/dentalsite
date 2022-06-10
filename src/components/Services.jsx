@@ -61,10 +61,10 @@ const facialAestheticsClicked = () => {
 
 
             <div className="services_selection">
-                <button onClick={vineersClicked} className="vineers-btn btn btn-accent">Veneers</button>
-                <button onClick={implantsClicked} className="implants-btn btn btn-accent">Invisalign</button>
-                <button onClick={whiteningClicked} className="whitening-btn btn btn-accent">Whitening</button>
-                <button onClick={facialAestheticsClicked} className="facial_aesthetics-btn btn btn-accent">Facial Aesthetics</button>
+                <a href="#0" onClick={vineersClicked} className="vineers-btn btn btn-accent">Veneers</a>
+                <a href="#0" onClick={implantsClicked} className="implants-btn btn btn-accent">Invisalign</a>
+                <a href="#0" onClick={whiteningClicked} className="whitening-btn btn btn-accent">Whitening</a>
+                <a href="#0" onClick={facialAestheticsClicked} className="facial_aesthetics-btn btn btn-accent">Facial Aesthetics</a>
             </div>
 
             <div className="service_card_container">{service}</div>

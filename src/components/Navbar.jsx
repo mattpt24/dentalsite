@@ -17,14 +17,14 @@ navbar.classList.remove("navbar-fixed");
 }
 });
 
-const dropdownLinks = document.querySelectorAll(".dropdown_link");
-const dropdownLinksArray = Array.from(dropdownLinks);
+// const dropdownLinks = document.querySelectorAll(".dropdown_link");
+// const dropdownLinksArray = Array.from(dropdownLinks);
 
-for(let i = 0; i < dropdownLinksArray.length; i++) {
-    dropdownLinksArray[i].addEventListener("click", () => {
-        document.querySelector(".dropdown_nav_container").classList.remove("dropdown-activated");
-    });
-}
+// for(let i = 0; i < dropdownLinksArray.length; i++) {
+//     dropdownLinksArray[i].addEventListener("click", () => {
+//         document.querySelector(".dropdown_nav_container").classList.remove("dropdown-activated");
+//     });
+// }
 
 
 const activateDropdown = () => {
@@ -41,7 +41,11 @@ return(
     <nav className="nav_container">
 
 
-    <div onClick={activateDropdown} class="burger_menu">&#9776;</div>
+    <div onClick={activateDropdown} class="burger_menu">
+    <div class="line1"></div>
+    <div class="line2"></div>
+    <div class="line3"></div>
+    </div>
 
         <div className="nav_left">
             <h3 className="nav_logo">Denpure<span style={{color: "#6454ff"}}>Dental</span></h3>
@@ -69,17 +73,17 @@ return(
         <h3 className="nav_logo">Denpure<span style={{color: "#6454ff"}}>Dental</span></h3>
 
         <ul className="nav_list">
-            <li><a rel="noreferrer" href="#about" className="dropdown_link nav_link">About</a></li>
-            <li><a rel="noreferrer" href="#services" className="dropdown_link nav_link">Services</a></li>
-            <li><a rel="noreferrer" href="#location" className="dropdown_link nav_link">Location</a></li>
-            <li><a rel="noreferrer" href="#testimonials" className="dropdown_link nav_link">Testimonials</a></li>
-            <li><a rel="noreferrer" href="#contact" className="dropdown_link nav_link support">Get In Touch</a></li>
+            <li><a tabindex="-1" onClick={()=>{document.querySelector(".dropdown_nav_container").classList.remove("dropdown-activated");}} rel="noreferrer" href="#about" className="dropdown_link nav_link">About</a></li>
+            <li><a tabindex="-1" onClick={()=>{document.querySelector(".dropdown_nav_container").classList.remove("dropdown-activated");}} rel="noreferrer" href="#services" className="dropdown_link nav_link">Services</a></li>
+            <li><a tabindex="-1" onClick={()=>{document.querySelector(".dropdown_nav_container").classList.remove("dropdown-activated");}} rel="noreferrer" href="#location" className="dropdown_link nav_link">Location</a></li>
+            <li><a tabindex="-1" onClick={()=>{document.querySelector(".dropdown_nav_container").classList.remove("dropdown-activated");}} rel="noreferrer" href="#testimonials" className="dropdown_link nav_link">Testimonials</a></li>
+            <li><a tabindex="-1" onClick={()=>{document.querySelector(".dropdown_nav_container").classList.remove("dropdown-activated");}} rel="noreferrer" href="#contact" className="dropdown_link nav_link support">Get In Touch</a></li>
         </ul>
 
         <div className="dropdown_contact_btn">
-            <a href="tel:01895 678889" className="btn btn-dark get-in-touch-btn"><i
+            <a tabindex="-1" href="tel:01895 678889" className="btn btn-dark get-in-touch-btn"><i
                     class="phone-icon fa-solid fa-phone"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;01895 678889</a>
-            <a href="mailto:info@denpure.co.uk" className="btn btn-light get-in-touch-btn"><i
+            <a tabindex="-1" href="mailto:info@denpure.co.uk" className="btn btn-light get-in-touch-btn"><i
                     class="phone-icon fa-solid fa-envelope"></i> &nbsp;info@denpure.co.uk</a>
         </div>
 

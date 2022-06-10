@@ -25,7 +25,7 @@ return(
                 <input type="textarea" name="Last Name" required placeholder="Last Name" />
                 <input type="text" name="Message" required placeholder="Your message..." />
                 <input type="email" name="Email" required placeholder="Email" />
-                <button type="submit">Send Message</button>
+                <button className="btn btn-dark" type="submit"><a style={{color: "white"}} href="#0">Send Message</a></button>
             </form>
         </div>
 

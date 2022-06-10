@@ -45,8 +45,8 @@ return (
     document.querySelector(".read-more").innerText = "Read More";
     document.querySelector(".read-more").setAttribute("href", "#reset_cards")
    }
-}}  className="read-more btn btn-white">Read More</a>
-    <a  className="btn btn-transparent" target="_blank" href="https://bit.ly/3mvbH2n">View All</a>
+}}  href="#0" className="read-more btn btn-white">Read More</a>
+    <a className="btn btn-transparent" target="_blank" href="https://bit.ly/3mvbH2n">View All</a>
     </div>
 
 
